@@ -1,0 +1,10 @@
+@forward "./reset";
+@forward "./app";
+
+html, body, #root{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: #23252C;
+}

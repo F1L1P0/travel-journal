@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import "./Scss/App.scss";
-import Header from "./Components/Footer";
-import Footer from "./Components/Header";
+import "./Scss/main.scss";
+import Clock from './Components/Clock';
+import Card from "./Components/Card";
 
 function App() {
   return(
     <>
-      <Header/>
-      <Footer/>
+      <Clock/>
+      <Card/>
     </>
   )
 }
